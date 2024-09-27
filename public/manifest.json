@@ -1,0 +1,20 @@
+{
+  "name": "Adri nweb-projekt5",
+  "short_name": "Adri nweb-projekt5",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "images/image_not_found.jpeg"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "360x360",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "purpose": "any maskable"
+}

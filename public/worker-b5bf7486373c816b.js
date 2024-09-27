@@ -1,0 +1,1 @@
+(()=>{async function t(){try{let t=await fetch("/api/getUpcomingMovies",{method:"GET"}),e=await t.json();return window.localStorage.setItem("upcomingMovies",JSON.stringify(e.results)),e}catch(t){return console.log(t)}}self.addEventListener("periodicsync",function(e){"sync-upcoming-movies"===e.tag&&e.waitUntil(t())})})();
